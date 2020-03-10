@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+
+comment.avatar: /images/leaves-pattern.png
+
+logging:
+  level:
+    root: info
+    com.liudong.blog: debug
+  file:
+    name: log/myblog.log
